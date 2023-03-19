@@ -1,0 +1,73 @@
+@font-face {
+    src: url(../fonts/Gasalt-Black.ttf);
+    font-family:Black;
+}
+
+body{
+    background-color: lightgray;
+
+
+}
+
+.container{
+    margin: 350px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: white;
+}
+
+.profile-picture{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+h1{
+    font-family:Black;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.bio{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-link{
+    color: #007FB5;
+     padding-left: 40px;
+     padding-right: 40px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     display: inline-block;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 23px;
+    position: absolute;
+     left: 1150px;
+     margin: 0px;
+}
+.social-link:hover{
+    border: solid #007FB5 0px;
+    background-color: #007FB5;
+    color: white;
+    
+}
+.social-icon{ 
+    float: left;
+    display: block;
+    width: 25px;
+    padding-right: 5px;
+}
+
+
